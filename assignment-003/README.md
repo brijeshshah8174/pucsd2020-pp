@@ -39,11 +39,7 @@
 
 #### How to run
 
-* `Clone this repository`
-	1. `For https`
-		`git clone https://github.com/sweta-chauhan/pucsd2020-pp.git`
-	2. `For SSH`
-		`git clone git@github.com:sweta-chauhan/pucsd2020-pp.git`
+* Do gitclone
 * To compile
 	1. First go to cloned dir and then go to dir named `assignment-003`
 	
@@ -82,5 +78,5 @@
  
 ##### Author 
 -----
-* Name : Sweta Kumari [1/02/2020]
+* Name : brijesh shah [1/02/2020]
 * Profession : Student
