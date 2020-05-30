@@ -1,0 +1,13 @@
+<div class="container">
+  <br>
+  <div class="two-button-cu">
+      <button class="create" (click)="goToPage('create')">create</button>
+      <button class="update" (click)="goToPage('update')">update</button>
+        <button class="search" (click)="goToPage('read')"> search</button>
+      <button class="delete" (click)="goToPage('delete')">delete</button>
+  </div>
+  <br><br>
+  <hr>
+  
+  <router-outlet></router-outlet>
+</div>

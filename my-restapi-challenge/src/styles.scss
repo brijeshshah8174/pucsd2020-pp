@@ -1,0 +1,51 @@
+.container {
+    //border: 1px solid white;
+    width: 40vw;
+    height: 60vh;
+    position: relative;
+    top:20vh;
+    left: 60vh;
+    //background-color: skyblue;
+    
+}
+
+body {
+    margin: 0;
+    background-color: rgb(250, 167, 250);
+  }
+
+.home {
+    right: 0px;
+    position: absolute;
+}
+.two-button-cu {
+    position: absolute;
+    right: 25%;
+}
+.create {
+    margin-right: 20px;
+}
+.search {
+    margin-right: 20px;
+}
+.two-button-sd {
+    position: absolute;
+    right: 50%;
+}
+form {
+    position: absolute;
+    right: 35%;
+}
+.two-button-sc {
+    position: absolute;
+    right: 30vh;
+    top: 72vh;
+}
+.after-form {
+    position: absolute;
+    top: 69vh;
+    width: inherit;
+}
+.save {
+    margin-right: 50px;
+}

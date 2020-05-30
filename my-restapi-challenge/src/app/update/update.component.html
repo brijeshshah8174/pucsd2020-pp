@@ -1,0 +1,43 @@
+
+<div class="row" >
+
+  <!-- Form -->
+  <div class="col-md-12">
+            <!--h3>Add User</h3-->
+            <form id="updateuser" name="updateuser" #updateuser="ngForm" (ngSubmit) = put(updateuser.value)>
+              <div class="form-group">
+                <label>id: </label><br>
+                <input type="number"  name="id" class="form-control"  ngModel>
+                
+              </div>
+                <div class="form-group ">
+                    <label>First name: </label><br>
+                    <input type="text" name="first_name" class="form-control"  ngModel>
+                  </div>
+                  <div class="form-group">
+                    <label>Last name: </label><br>
+                    <input type="text" name="last_name" class="form-control"  ngModel>
+                  </div>
+                <div class="form-group">
+                    <label>Email: </label><br>
+                    <input type="text" name="email" class="form-control"  ngModel>
+                  </div>
+                <div class="form-group">
+                    <label>Contact Number: </label><br>
+                    <input type="text" name="contact_number" class="form-control"  ngModel>
+                  </div>
+                <div class="form-group">
+                    <label>Password: </label><br>
+                    <input type="text"  name="password" class="form-control"  ngModel>
+                  </div>
+                
+                  <br>
+                  <div class="two-button">
+                  <button class="save" type="submit" (click)='save()'>edit</button>
+                  <button class="cancel" type="reset" >Reset</button>
+                </div>
+            </form>
+     
+</div>
+</div>
+    

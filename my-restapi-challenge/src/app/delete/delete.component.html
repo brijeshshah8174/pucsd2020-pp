@@ -1,0 +1,23 @@
+<div class="row" >
+
+  <!-- Form -->
+  <div class="col-md-12">
+    <form id="deluser" name="deluser" #deleteuser="ngForm" >
+        
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                    <label >User Id: </label>
+                  
+                    <input type="text" class="form-control"   (keyup)=id($event)>
+                </div>
+              </div>
+            </div>
+            <br><br><br>
+                <button type="submit" class="btn btn-primary btn-round pull-right" (click)="delete()" >Delete</button>
+                
+      </form>
+      </div>
+      </div>
+
+    
